@@ -9,7 +9,7 @@
   <img src="images/screenshot.png" alt="CueSplit showing an album's track list and cover art, with a track playing">
 </p>
 
-CueSplit opens a CD image rip (a cue sheet plus one FLAC or APE file for the whole album) and turns it into one
+CueSplit opens a CD image rip (a cue sheet plus one FLAC, APE, WavPack, TTA, WAV or AIFF file for the whole album) and turns it into one
 tagged file per track: FLAC, Apple Lossless or AAC. Use the Mac app to check the names and tags, listen, and split,
 or `cuesplit` on the command line for scripts and batches.
 
@@ -37,8 +37,20 @@ also installs the command-line tool's man page (`man cuesplit`) and completions 
   the original audio.
 - **Add to Music:** add the album, or a few tracks, to your Music library as Apple Lossless or AAC.
 
-Drop a cue sheet on the window (or a FLAC or APE file with an embedded cue sheet), check the track list, and
+Drop a cue sheet on the window (or a FLAC, APE, WavPack or TTA file with an embedded cue sheet), check the track list, and
 click **Split…**.
+
+### CueSplit Enthusiast
+
+An optional one-time purchase that adds:
+
+- **Watched folders:** add an album to a folder you choose, and CueSplit splits it, or adds it to Music, by itself.
+- **AI agents:** agents such as Claude can open albums, fix tags and save tracks through the Model Context Protocol
+  (MCP), only in folders you choose.
+- **The menu bar:** CueSplit keeps running in the menu bar after you close its window, and can open at login.
+
+Splitting stays free. Buy it in CueSplit > Settings > Enthusiast, which leads to
+[galaco.me](https://www.galaco.me/software/cuesplit/premium) for copies from here and Homebrew.
 
 ## The command-line tool
 
@@ -51,7 +63,7 @@ cuesplit album.cue --dry-run           # list the files it would save
 cuesplit info album.cue                # show the tracks and tags without splitting
 ```
 
-The input can also be a FLAC or APE file with an embedded cue sheet.
+The input can also be a FLAC, APE, WavPack or TTA file with an embedded cue sheet.
 
 | Option | |
 |---|---|
@@ -109,6 +121,7 @@ Neither the app nor the command-line tool collects any data or connects to the i
 
 ## License
 
-MIT; see [LICENSE](LICENSE). CueSplit includes libFLAC and the Monkey's Audio SDK (both BSD-3-Clause), and the
+Free to use and share unmodified; see [LICENSE](LICENSE). Versions before 1.1 were released under the MIT
+License. CueSplit includes libFLAC and the Monkey's Audio SDK (both BSD-3-Clause), and the
 command-line tool also Swift Argument Parser (Apache 2.0). Their notices are in the app's About window and in
 `THIRD_PARTY_NOTICES.txt` in the command-line tool's download.

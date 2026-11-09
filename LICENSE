@@ -1,21 +1,38 @@
-MIT License
+CueSplit License
 
-Copyright (c) 2026 Galaco
+Copyright (c) 2026 Galaco. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license covers the CueSplit app and the cuesplit command-line tool published in
+this repository and through Homebrew ("CueSplit"). Copies from the Mac App Store are
+covered by Apple's Licensed Application End User License Agreement instead.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Use. CueSplit is free. You may install and use it on any number of computers, for
+   any purpose, including commercial work.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Sharing. You may share unmodified copies of CueSplit, free of charge, together with
+   this license. You may not sell CueSplit or include it in anything you sell.
+
+3. CueSplit Enthusiast. Enthusiast's features need a license, bought from
+   https://www.galaco.me/software/cuesplit/premium. A license is for the person who
+   bought it, on the Macs they use, and is not to be shared. You may not unlock
+   Enthusiast without a license, remove or work around its license checks, or make or
+   share anything that does.
+
+4. Changes. You may not modify, decompile or reverse engineer CueSplit, except as far as
+   applicable law allows despite this restriction.
+
+5. Third-party software. CueSplit includes libFLAC, the Monkey's Audio SDK and WavPack
+   (all BSD-3-Clause), and the command-line tool also Swift Argument Parser (Apache 2.0).
+   Their own licenses apply to them. Their notices are in the app's About window and in
+   THIRD_PARTY_NOTICES.txt in the command-line tool's download.
+
+6. No warranty. CUESPLIT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH CUESPLIT OR THE USE OR OTHER
+   DEALINGS IN IT. Nothing in this license limits rights you have under consumer law
+   that cannot be excluded.
+
+Versions of CueSplit released before 1.1 were published under the MIT License, and
+copies of those versions remain under it.
